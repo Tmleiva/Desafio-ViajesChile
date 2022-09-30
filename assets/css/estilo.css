@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Oswald";
+}
+
+.navbar {
+    padding: 50px;
+    color: white;
+    }
+
+.logo-viaje{
+    width: 45px;
+    height: 40px;
+}
+
+.somos{
+    text-align: justify;
+    font-weight: 300;
+}
+
+
+.seccion-destacados img{
+    height: 150px;
+    object-fit: cover;
+}
+
+#seccion-icon{
+    font-size: 30px;
+    text-align: center;
+}
+
