@@ -7,7 +7,12 @@ body{
 .navbar {
     padding: 50px;
     color: white;
-    }
+}
+
+.navbar-opaco{
+    background-color: black;
+    opacity: 75%;
+}
 
 .logo-viaje{
     width: 45px;
