@@ -20,11 +20,12 @@ $(document).ready(function(){
         var mensaje= $("#formularioContactoMensaje").val().trim();
 
         if ( nombre != "" && asunto != "" && mensaje != "" ) {
-            alert("Tu correo fue enviado correctamente, Viajes Chile se contactará contigo a la brevedad.");
+            $(".alert-danger").addClass("d-none")
+            $(".alert-success").removeClass("d-none")
         }else{
-            alert("ERROR! Debes ingresar todos los campos")
+            $(".alert-danger").removeClass("d-none");
+            $(".alert-success").addClass("d-none")
         }
-
 
     });
 

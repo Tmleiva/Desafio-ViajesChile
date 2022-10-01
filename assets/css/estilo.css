@@ -19,6 +19,10 @@ body{
     height: 40px;
 }
 
+hr{
+    color: rgb(47, 47, 47);
+}
+
 .somos{
     text-align: justify;
     font-weight: 300;
@@ -34,3 +38,14 @@ body{
     text-align: center;
 }
 
+.alert-danger{
+    background-color: rgb(17, 5, 5);
+    border: none;
+    color: brown;
+}
+
+.alert-success{
+    background-color: rgb(4, 54, 4);
+    border: none;
+    color: green;
+}
