@@ -1,3 +1,4 @@
+
 body{
     background-color: black;
     color: white;
@@ -5,7 +6,6 @@ body{
 }
 
 .navbar {
-    padding: 50px;
     color: white;
 }
 
@@ -23,7 +23,6 @@ body{
     text-align: justify;
     font-weight: 300;
 }
-
 
 .seccion-destacados img{
     height: 150px;
